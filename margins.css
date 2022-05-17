@@ -1,0 +1,88 @@
+@font-face {
+  font-family: 'urlaub_groteskregular';
+  src: url(fonts/urlaub-grotesk-regular-webfont.woff2) format('woff2'),
+       url(fonts/urlaub-grotesk-regular-webfont.woff) format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+  .full-height {
+    height: 100%;
+  }
+
+  #mydiv {
+    position: absolute;
+    top: 20%;
+    left: 20%;
+  }
+  
+  #mydivheader {
+    cursor: move;
+  }
+
+  #manifestodiv {
+    position: absolute;
+
+  }
+  
+  #manifestodivhead {
+    cursor: move;
+  }
+
+  #datediv {
+    position: absolute;
+    top: 55%;
+    left: 55%;
+  }
+  
+  #datedivhead {
+    cursor: move;
+  }
+  
+  .manifesto {
+    top: 10%;
+     margin: 0 auto;
+     box-sizing: border-box;
+     padding: 0.3in;
+     width: 25%;
+     background-color: white;
+     outline: 2px solid black;
+     z-index: 10;
+  }
+
+  .manifestotitle {
+    position:fixed;
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding: 0.3in;
+    width: 370px;
+    background-color: white;
+    outline: 2px solid black;
+    z-index: 12;
+    font-family:'urlaub_groteskregular';
+    font-size:70px;
+ }
+
+ .date {
+  position:fixed;
+  margin: 0 auto;
+  box-sizing: border-box;
+  padding: 0.3in;
+  width: 360px;
+  background-color: white;
+  outline: 2px solid black;
+  z-index: 11;
+  font-family:'urlaub_groteskregular';
+  font-size: 20px;
+}
+
+  h2 {
+    text-align: center;
+    font-family:'urlaub_groteskregular';
+    
+  }
+  p {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+  }
+

@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+
+<html>
+    
+
+
+    <head>
+
+        <title>UNDER CONSTRUCTION - Where Are The Margins?</title>
+        <link rel="stylesheet" type="text/css" href="margins.css">
+
+    </head>
+
+    <body>
+      
+        <header>
+             
+        </header>
+
+        <main>
+ 
+            
+                <img src="savethedate.gif" style="position: fixed; top: 5px; right: 5px; margin: 0 auto; box-sizing: border-box; padding: 0.3in; height: 50%;">
+                <img src="savethedate.gif" style="position: fixed; bottom: 5px; right: 5px; margin: 0 auto; box-sizing: border-box; padding: 0.3in; height: 50%;">
+                <img src="savethedate.gif" style="position: fixed; top: 5px; left: 5px; margin: 0 auto; box-sizing: border-box; padding: 0.3in; height: 50%;">
+                <img src="savethedate.gif" style="position: fixed; bottom: 5px; left: 5px; margin: 0 auto; box-sizing: border-box; padding: 0.3in; height: 50%;">
+
+            
+           
+
+
+            </br></br></br></br>
+
+            <div id="manifestodiv">
+                <div id="manifestodivhead">
+                    <section class=manifesto>
+                        <p>
+                            As the world changes, societal structure shifts and overlaps. Values are swept up in cultural currents, colliding with others’ beliefs as ideas integrate with other people’s views and become a larger piece. In a world of ideologies in constant motion, our ideas formulate when considering our perception of reality and circumstance. We navigate this phenomenon of our visible and invisible margins. 
+                            </br></br>
+                            In asking Where are the margins? we explore and define our own practices; beginning to comprehend where we, as designers, situate ourselves within society, mapping our trajectory. We can then orient ourselves against and amongst each other, improving by our collaboration and interpretation of each other's projects; integrating and transmuting different elements into a more coherent whole. When our lines of interests intersect and overlap, concepts bleed out into new compositions and our work becomes marginalia.
+                        </p>
+                    </section>
+                </div>
+            </div>
+
+            <script>
+                dragElement(document.getElementById("manifestodiv"));
+                
+                function dragElement(elmnt) {
+                  var pos1 = 0, pos2 = 0, pos3 = 0, pos4 = 0;
+                  if (document.getElementById(elmnt.id + "head")) {
+                    document.getElementById(elmnt.id + "head").onmousedown = dragMouseDown;
+                  } else {
+                    elmnt.onmousedown = dragMouseDown;
+                  }
+                
+                  function dragMouseDown(e) {
+                    e = e || window.event;
+                    e.preventDefault();
+                    pos3 = e.clientX;
+                    pos4 = e.clientY;
+                    document.onmouseup = closeDragElement;
+                    document.onmousemove = elementDrag;
+                  }
+                
+                  function elementDrag(e) {
+                    e = e || window.event;
+                    e.preventDefault();
+                    pos1 = pos3 - e.clientX;
+                    pos2 = pos4 - e.clientY;
+                    pos3 = e.clientX;
+                    pos4 = e.clientY;
+                    elmnt.style.top = (elmnt.offsetTop - pos2) + "px";
+                    elmnt.style.left = (elmnt.offsetLeft - pos1) + "px";
+                  }
+                
+                  function closeDragElement() {
+                    document.onmouseup = null;
+                    document.onmousemove = null;
+                  }
+                }
+                </script>
+
+</br></br>
+
+
+            <div id="datediv">
+                <div id="datedivhead">
+                    <section class="date">
+                        24-27 JUNE COPELAND PARK
+                    </section>
+                </div>
+            </div>
+            <script>
+                dragElement(document.getElementById("datediv"));
+                
+                function dragElement(elmnt) {
+                  var pos1 = 0, pos2 = 0, pos3 = 0, pos4 = 0;
+                  if (document.getElementById(elmnt.id + "head")) {
+                    document.getElementById(elmnt.id + "head").onmousedown = dragMouseDown;
+                  } else {
+                    elmnt.onmousedown = dragMouseDown;
+                  }
+                
+                  function dragMouseDown(e) {
+                    e = e || window.event;
+                    e.preventDefault();
+                    pos3 = e.clientX;
+                    pos4 = e.clientY;
+                    document.onmouseup = closeDragElement;
+                    document.onmousemove = elementDrag;
+                  }
+                
+                  function elementDrag(e) {
+                    e = e || window.event;
+                    e.preventDefault();
+                    pos1 = pos3 - e.clientX;
+                    pos2 = pos4 - e.clientY;
+                    pos3 = e.clientX;
+                    pos4 = e.clientY;
+                    elmnt.style.top = (elmnt.offsetTop - pos2) + "px";
+                    elmnt.style.left = (elmnt.offsetLeft - pos1) + "px";
+                  }
+                
+                  function closeDragElement() {
+                    document.onmouseup = null;
+                    document.onmousemove = null;
+                  }
+                }
+                </script>
+
+
+
+</br></br>
+
+
+<div id="mydiv">
+    <div id="mydivheader">
+        <section class=manifestotitle>
+            Where Are The Margins?
+        </section>
+    </div>
+</div>
+
+
+<script>
+    dragElement(document.getElementById("mydiv"));
+    
+    function dragElement(elmnt) {
+      var pos1 = 0, pos2 = 0, pos3 = 0, pos4 = 0;
+      if (document.getElementById(elmnt.id + "header")) {
+        document.getElementById(elmnt.id + "header").onmousedown = dragMouseDown;
+      } else {
+        elmnt.onmousedown = dragMouseDown;
+      }
+    
+      function dragMouseDown(e) {
+        e = e || window.event;
+        e.preventDefault();
+        pos3 = e.clientX;
+        pos4 = e.clientY;
+        document.onmouseup = closeDragElement;
+        document.onmousemove = elementDrag;
+      }
+    
+      function elementDrag(e) {
+        e = e || window.event;
+        e.preventDefault();
+        pos1 = pos3 - e.clientX;
+        pos2 = pos4 - e.clientY;
+        pos3 = e.clientX;
+        pos4 = e.clientY;
+        elmnt.style.top = (elmnt.offsetTop - pos2) + "px";
+        elmnt.style.left = (elmnt.offsetLeft - pos1) + "px";
+      }
+    
+      function closeDragElement() {
+        document.onmouseup = null;
+        document.onmousemove = null;
+      }
+    }
+    </script>
+        
+        
+        </main>
+            
+</body>
+</html>

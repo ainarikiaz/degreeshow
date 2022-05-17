@@ -61,6 +61,7 @@
     outline: 2px solid black;
     z-index: 12;
     font-family:'urlaub_groteskregular';
+    opacity: 0.5;
     font-size:70px;
  }
 
@@ -74,6 +75,7 @@
   outline: 2px solid black;
   z-index: 11;
   font-family:'urlaub_groteskregular';
+   opacity: 0.5;
   font-size: 20px;
 }
 

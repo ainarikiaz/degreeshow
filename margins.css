@@ -76,7 +76,7 @@
   z-index: 11;
   font-family:'urlaub_groteskregular';
    opacity: 0.5;
-  font-size: 25px;
+  font-size: 30px;
 }
 
   h2 {
@@ -85,7 +85,8 @@
     
   }
   p {
-    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-family:'urlaub_groteskregular';
+    /* font-family:Georgia, 'Times New Roman', Times, serif; */
     font-size: 28px; 
   }
 

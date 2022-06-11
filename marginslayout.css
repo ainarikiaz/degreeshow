@@ -1,0 +1,262 @@
+@font-face {
+    font-family: 'urlaub_groteskregular';
+    src: url(fonts/grotesk/urlaub-grotesk-regular-webfont.woff2) format('woff2'),
+         url(fonts/grotesk/urlaub-grotesk-regular-webfont.woff) format('woff');
+    font-weight: normal;
+    font-style: normal;
+  
+  }
+  @font-face {
+    font-family: 'beldadidone-conregit';
+    src: url(fonts/belda/beldadidone-conregit-webfont.woff) format('woff2'),
+         url(fonts/belda/beldadidone-conregit-webfont.woff2) format('woff');
+    font-weight: normal;
+    font-style: normal;
+  
+  }
+
+  @font-face {
+    font-family: 'healthewebb-regular'; 
+    src: url(fonts/healtheweb/healthewebb-regular-webfont.woff) format('woff2'),
+         url(fonts/healtheweb/healthewebb-regular-webfont.woff2) format('woff');
+    font-weight: normal;
+    font-style: normal;
+  
+  }
+
+
+  
+    .full-height {
+      height: 100%;
+    }
+  
+    #mydiv {
+      position: absolute;
+      top: 20%;
+      left: 20%;
+    }
+    
+    #mydivheader {
+      cursor: move;
+    }
+  
+    #manifestodiv {
+      position: absolute;
+  
+    }
+    
+    #manifestodivhead {
+      cursor: move;
+    }
+  
+    #datediv {
+      position: absolute;
+      top: 55%;
+      left: 55%;
+    }
+    
+    #datedivhead {
+      cursor: move;
+    }
+    
+    .manifesto {
+       top: 10%;
+       margin: 0 auto;
+       box-sizing: border-box;
+       padding: 0.3in;
+       width: 45%;
+       background-color: white;
+       outline: 2px solid black;
+       z-index: 10;
+    }
+  
+    .manifestotitle {
+      position:fixed;
+      margin: 0 auto;
+      box-sizing: border-box;
+      padding: 0.3in;
+      width: 370px;
+      background-color: white;
+      outline: 2px solid black;
+      z-index: 12;
+      font-family:'urlaub_groteskregular';
+      opacity: 0.5;
+      font-size:70px;
+   }
+  
+   .date {
+    position:fixed;
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding: 0.3in;
+    width: 360px;
+    background-color: white;
+    outline: 2px solid black;
+    z-index: 11;
+    font-family:'urlaub_groteskregular';
+    opacity: 0.5;
+    font-size: 30px;
+  }
+  
+  h1 {
+    font-family:'healthewebb-regular';
+    
+  }
+
+  h2 {
+    font-family: belda-normal,'beldadidone-conregit', sans-serif;
+    font-weight: 800;
+    font-style: italic;
+    font-size: 40px;
+    
+  }
+
+  h3 {
+    font-family: belda-normal,'beldadidone-conregit', sans-serif;
+    font-weight: 800;
+    font-style: italic;
+    font-size: 30px;
+    
+  }
+
+  p {
+    font-family:'urlaub_groteskregular', 'ariel', 'serif';
+    font-size: 25px; 
+  }
+
+  pre {
+    font-family:'urlaub_groteskregular', 'ariel', 'serif';
+    font-size: 25px; 
+
+    white-space: pre-wrap;       /* css-3 */
+    white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+    white-space: -pre-wrap;      /* Opera 4-6 */
+    white-space: -o-pre-wrap;    /* Opera 7 */
+    word-wrap: break-word;       /* Internet Explorer 5.5+ */
+  }
+
+  .description {
+    position:absolute;
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding: 0.3in;
+    width: 40%;
+    z-index: 11;
+    top: 25%;
+    left: 5%;  
+
+  }
+  
+
+  .projecttitle {
+      top: 2%;
+      left: 1%;
+      width: 48%;
+
+      position:fixed;
+      margin: 0 auto;
+      box-sizing: border-box;
+      padding: 0.3in;
+      z-index: 11;
+  }
+
+  .designername {
+      top: 15%;
+      width: 30%;
+      left: 8%;
+
+      position:fixed;
+      z-index: 11;
+
+  }
+
+  .media {
+        
+        z-index: 8;
+        text-align: right;
+        
+  }
+  img {
+      width: 50%;
+      
+  }
+
+  .squiggle {
+    
+    opacity: 0.5;
+    position:fixed;
+    z-index: 1;
+  }
+
+  .projectsmenu {
+    position:absolute;
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding: 0.3in;
+    width: 40%;
+    z-index: 11;
+    top: 25%;
+    left: 5%;  
+
+  }
+
+  .contentsmanifesto {
+
+    width: 32%;
+    z-index: 8;
+    left: 60%;
+    top: 18%;
+    Position: fixed;
+
+    
+}
+
+.namesize {
+width: 40%;
+}
+  
+a {
+  color: black;
+  
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  text-decoration: underline;
+}
+
+
+.sticker {
+
+
+    text-align: right;
+    bottom: 15%;
+    left: 45%;
+    position: fixed;
+    width: 30%;
+    z-index: 99;
+
+}
+
+.return {
+
+  bottom: 3%;
+  left: 3%;
+  position: fixed;
+  width: 10%;
+  z-index: 99;
+
+}
+
+
